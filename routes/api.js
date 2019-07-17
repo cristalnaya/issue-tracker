@@ -62,7 +62,7 @@ module.exports = (app) => {
           let updated_on = new Date();
           let open = true;
 
-          let obj = {
+          var obj = {
             issue_title,
             issue_text,
             created_by,
