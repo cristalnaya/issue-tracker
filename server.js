@@ -9,7 +9,6 @@ var apiRoutes         = require('./routes/api.js');
 var fccTestingRoutes  = require('./routes/fcctesting.js');
 var runner            = require('./test-runner');
 const helmet = require('helmet');
-const mongoose = require('mongoose');
 
 var app = express();
 
